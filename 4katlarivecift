@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        int toplam=0,girilensayi;
+        Scanner girdi=new Scanner(System.in);
+
+
+
+        do {
+            System.out.println("sayi giriniz.");
+            girilensayi=girdi.nextInt();
+            toplam=toplam+girilensayi;
+
+
+
+        }while (girilensayi%2==0&&girilensayi%4==0);
+
+        System.out.println(toplam);
+
+
+
+    }
+
+}
+
+
+
+
